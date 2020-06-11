@@ -1,0 +1,63 @@
+2020-06-10 23:22:13,778,INFO,[User] Platform: Darwin-16.7.0-x86_64-i386-64bit
+2020-06-10 23:22:13,779,INFO,[User] Path: /Users/damianwilliams/Dropbox/Programming/Python/RTGraph
+2020-06-10 23:22:13,779,INFO,[User] Python: 3.7.7
+2020-06-10 23:22:13,911,INFO,[RTGraph] Starting RTGraph
+2020-06-10 23:23:58,912,INFO,[RTGraph] Finishing RTGraph
+
+2020-06-10 23:24:02,297,INFO,[User] Platform: Darwin-16.7.0-x86_64-i386-64bit
+2020-06-10 23:24:02,297,INFO,[User] Path: /Users/damianwilliams/Dropbox/Programming/Python/RTGraph
+2020-06-10 23:24:02,297,INFO,[User] Python: 3.7.7
+2020-06-10 23:24:02,426,INFO,[RTGraph] Starting RTGraph
+2020-06-10 23:25:20,148,INFO,[RTGraph] Finishing RTGraph
+
+2020-06-10 23:25:22,496,INFO,[User] Platform: Darwin-16.7.0-x86_64-i386-64bit
+2020-06-10 23:25:22,497,INFO,[User] Path: /Users/damianwilliams/Dropbox/Programming/Python/RTGraph
+2020-06-10 23:25:22,497,INFO,[User] Python: 3.7.7
+2020-06-10 23:25:22,626,INFO,[RTGraph] Starting RTGraph
+2020-06-10 23:26:04,033,INFO,[RTGraph] Finishing RTGraph
+
+2020-06-10 23:26:07,421,INFO,[User] Platform: Darwin-16.7.0-x86_64-i386-64bit
+2020-06-10 23:26:07,421,INFO,[User] Path: /Users/damianwilliams/Dropbox/Programming/Python/RTGraph
+2020-06-10 23:26:07,421,INFO,[User] Python: 3.7.7
+2020-06-10 23:26:07,550,INFO,[RTGraph] Starting RTGraph
+2020-06-10 23:39:00,213,INFO,[RTGraph] Finishing RTGraph
+
+2020-06-10 23:40:55,337,INFO,[User] Platform: Darwin-16.7.0-x86_64-i386-64bit
+2020-06-10 23:40:55,337,INFO,[User] Path: /Users/damianwilliams/Dropbox/Programming/Python/RTGraph
+2020-06-10 23:40:55,337,INFO,[User] Python: 3.7.7
+2020-06-10 23:40:55,472,INFO,[SocScrollSave] Starting SocScrollSave
+2020-06-10 23:40:57,406,INFO,[MainWindow] Clicked start
+2020-06-10 23:40:57,406,INFO,[Worker] Buffers cleared
+2020-06-10 23:40:57,407,INFO,[Socket] Process Ready
+2020-06-10 23:40:57,617,INFO,[Socket] Socket open
+2020-06-10 23:40:57,634,INFO,[Socket] Process starting...
+2020-06-10 23:41:01,517,INFO,[MainWindow] Clicked stop
+2020-06-10 23:41:01,518,INFO,[Socket] Process finishing...
+2020-06-10 23:41:01,547,INFO,[Socket] Process finished
+2020-06-10 23:41:05,529,INFO,[MainWindow] Clicked start
+2020-06-10 23:41:05,531,INFO,[Worker] Buffers cleared
+2020-06-10 23:41:05,532,INFO,[CSV] Storing in data/2020-06-11_03-41-05.csv
+2020-06-10 23:41:05,532,INFO,[CSV] Process ready
+2020-06-10 23:41:05,533,INFO,[Socket] Process Ready
+2020-06-10 23:41:05,750,INFO,[Socket] Socket open
+2020-06-10 23:41:05,766,INFO,[CSV] Process starting...
+2020-06-10 23:41:05,771,INFO,[Socket] Process starting...
+2020-06-10 23:41:10,500,INFO,[MainWindow] Clicked stop
+2020-06-10 23:41:10,501,INFO,[Socket] Process finishing...
+2020-06-10 23:41:10,535,INFO,[Socket] Process finished
+2020-06-10 23:41:10,543,INFO,[CSV] Process finishing...
+2020-06-10 23:41:10,791,INFO,[CSV] Process finished
+2020-06-10 23:44:18,126,INFO,[User] Platform: Darwin-16.7.0-x86_64-i386-64bit
+2020-06-10 23:44:18,127,INFO,[User] Path: /Users/damianwilliams/Dropbox/Programming/Python/RTGraph
+2020-06-10 23:44:18,127,INFO,[User] Python: 3.7.7
+2020-06-10 23:44:18,257,INFO,[SocScrollSave] Starting SocScrollSave
+2020-06-10 23:44:21,750,INFO,[MainWindow] Clicked start
+2020-06-10 23:44:21,751,INFO,[Worker] Buffers cleared
+2020-06-10 23:44:21,752,INFO,[Socket] Process Ready
+2020-06-10 23:44:21,956,INFO,[Socket] Socket open
+2020-06-10 23:44:21,973,INFO,[Socket] Process starting...
+2020-06-10 23:44:28,917,INFO,[MainWindow] Clicked stop
+2020-06-10 23:44:28,918,INFO,[Socket] Process finishing...
+2020-06-10 23:44:28,934,INFO,[Socket] Process finished
+2020-06-10 23:44:32,700,INFO,[SocScrollSave] Finishing SocScrollSave
+
