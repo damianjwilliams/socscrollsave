@@ -25,6 +25,8 @@ Data is stored as a `.csv` file in `~/data`.
 
 For an examples using ESP-32 microcontroller see link below.
 
+## Links
+
 
 ## License
 The project is distributed under MIT License
