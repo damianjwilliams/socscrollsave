@@ -4,7 +4,7 @@ Python application for creating a real-time scrolling plot and storing data from
 Most of the code is from  Sebastián Sepúlveda's excellent [RTplot](https://github.com/ssepulveda/esp_32). socscrollsave is a simplified version of RTplot, which also can use sockets and serial connections.
 
 
-##Requirements
+## Requirements
 - [websocket-client](https://pypi.org/project/websocket_client/)
 
 - [pyqtgraph](http://www.pyqtgraph.org/)
