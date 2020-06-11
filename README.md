@@ -1,37 +1,31 @@
-# SocScrollSave
+# Socscrollsave
 
-A simple Python application for plotting and storing data from a serial port in real time, formatted as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values).
-The application uses the [mutliprocessing](https://docs.python.org/3/library/multiprocessing.html) package to allow better usage of the host resources, overcoming limitations such as [GIL](https://docs.python.org/3/glossary.html#term-global-interpreter-lock) in Python.  
+Python application for creating a real-time scrolling plot and storing data from a websocket.
+Most of the code is from  Sebastián Sepúlveda's excellent [RTplot](https://github.com/ssepulveda/esp_32). socscrollsave is a simplified version of RTplot, which also can use sockets and serial connections. See links below for more RTplot information.
 
-## Dependencies
-- Python 3 (3.2 or later).
-- PyQt5.
-- PySerial.
-- [PyQtGraph](http://www.pyqtgraph.org/).
 
-## Installation instructions
-### Using Anaconda or Miniconda (Windows, macOS, Linux)
-1. Install [Anaconda](https://www.continuum.io/downloads) or [Miniconda](https://conda.io/miniconda.html). Remember to add conda to your path.
-2. Open a terminal and type:
-    - `conda install pyqtgraph pyserial`
 
-### Using Pip (Windows, macOS, Linux)
-1. Verify you have installed pip.
-2. Open a terminal and type:
-    - `pip install PyQt5 pyqtgraph pyserial`
+##Requirements
+- [websocket-client](https://pypi.org/project/websocket_client/)
 
-### Linux (Apt based distros)
-1. Open a terminal and type:
-    - `sudo apt-get install python3-pyqt5 python3-pyqtgraph python3-serial`
+- [pyqtgraph](http://www.pyqtgraph.org/)
+
+- [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) (for older versions of macOS, it may be necessary to install an old version of PyQt5 `pip install PyQt5==5.13.0` )
+
 
 ## Usage
-From a terminal, on the root folder of the project, run:
-- `python -m socscrollsave`
+From a terminal, on the root folder of the application, run `python -m socscrollsave`.
 
-## Links
-- [Presentation on SciPy 2015](https://www.youtube.com/watch?v=yNOJ_NfzI64&index=1&list=PLiOqvn0zxKhOy6WKGYMz3wHxJRN_zGCvD&t=896s)
-- [Proceedings on SciPy 2015](http://conference.scipy.org/proceedings/scipy2015/pdfs/sebastian_sepulveda.pdf)
+The client IP address (and port), can be found on line 43 of `~/socscrollsave/SocketClient.py`.
 
-## License and Citations
-The project is distributed under MIT License. A DOI is attached to the project for citations.
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.12789.svg)](http://dx.doi.org/10.5281/zenodo.12789)
+Incoming data should be in csv format.
+
+Currently plots data from 4 variables from the same csv stream. The number of plots can be changed at  `/socscrollsave/ui/mainWindow.py` line 89.
+
+Data is stored as a `.csv` file in `~/data`.
+
+For an examples using ESP-32 microcontroller see link below.
+
+
+## License
+The project is distributed under MIT License
