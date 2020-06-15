@@ -91,15 +91,15 @@ class MainWindow(QtGui.QMainWindow):
         self._plt1 = self.ui.plt.addPlot(row=1, col=1)
         self._plt1.setLabel('bottom', Constants.plot_xlabel_title, Constants.plot_xlabel_unit)
         self._plt1.setLabel('left', "Temperature")
-        self._plt1.setYRange(0, 40, padding=0)
+        self._plt1.setYRange(20, 30, padding=0)
         self._plt2 = self.ui.plt.addPlot(row=1, col=2)
         self._plt2.setLabel('bottom', Constants.plot_xlabel_title, Constants.plot_xlabel_unit)
         self._plt2.setLabel('left', "Pressure")
-        self._plt2.setYRange(1000, 1020, padding=0)
+        self._plt2.setYRange(1020, 1030, padding=0)
         self._plt3 = self.ui.plt.addPlot(row=2, col=1)
         self._plt3.setLabel('bottom', Constants.plot_xlabel_title, Constants.plot_xlabel_unit)
         self._plt3.setLabel('left', "Altitude")
-        self._plt3.setYRange(0, 100, padding=0)
+        self._plt3.setYRange(-100, 100, padding=0)
         self._plt4 = self.ui.plt.addPlot(row=2, col=2)
         self._plt4.setLabel('bottom', Constants.plot_xlabel_title, Constants.plot_xlabel_unit)
         self._plt4.setLabel('left', "Humidity")
@@ -147,10 +147,17 @@ class MainWindow(QtGui.QMainWindow):
                         y=self.worker.get_values_buffer(0),
                         pen=Constants.plot_colors[0])
 
+
+        self._plt1.plot(x=self.worker.get_time_buffer(),
+                        y=self.worker.get_values_buffer(4),
+                        pen=Constants.plot_colors[4])
+
+
         self._plt2.clear()
         self._plt2.plot(x=self.worker.get_time_buffer(),
                         y=self.worker.get_values_buffer(1),
                         pen=Constants.plot_colors[1])
+
 
         self._plt3.clear()
         self._plt3.plot(x=self.worker.get_time_buffer(),
